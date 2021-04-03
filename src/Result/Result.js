@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useInfo } from "../Context/Info";
 import "./Result.scss";
 
 const Result = () => {
-
   const { group, line } = useInfo();
   const [show, setShow] = useState(true);
 

@@ -1,11 +1,12 @@
-import React, { useEffect } from "react";
-import "./App.scss";
-import { WithInfo } from "./Hocs/With-info";
-import Richie from "./Assets/richie.png";
-import twitter from "./Assets/twitter.webp";
-import { Content } from "./Content/Content";
+import { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { WithInfo } from "./Hocs/With-info";
+import { Content } from "./Content/Content";
 import NotFoundPage from "./components/NotFoundPage";
+
+import twitter from "./Assets/twitter.webp";
+import Richie from "./Assets/richie.png";
+import "./App.scss";
 
 function App() {
 	useEffect(() => {

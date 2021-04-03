@@ -1,10 +1,9 @@
-import React from "react";
 import { Select } from "../Select/Select";
-import "./Questions.scss";
-import Unselected from "../Assets/unselected.svg";
-import Selected from "../Assets/selected.svg";
-
 import { useInfo } from "../Context/Info";
+
+import Selected from "../Assets/selected.svg";
+import Unselected from "../Assets/unselected.svg";
+import "./Questions.scss";
 
 const Questions = () => {
   const {

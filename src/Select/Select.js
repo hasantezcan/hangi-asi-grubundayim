@@ -1,6 +1,5 @@
-import React from "react";
-import "./Select.scss";
 import DropdownIcon from "../Assets/dropdown-item.svg";
+import "./Select.scss";
 
 const Select = ({ options, value = -1, setValue, firstValue }) => {
   return (
